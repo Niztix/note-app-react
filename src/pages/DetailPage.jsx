@@ -52,7 +52,8 @@ class DetailPage extends React.Component {
 }
 
 DetailPage.propTypes = {
-    id: PropTypes.string.isRequired
+    id: PropTypes.string.isRequired,
+    navigate: PropTypes.string.isRequired
 }
 
 export default DetailPageWrapper;
